@@ -1,0 +1,43 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "hi-IN": {
+          "summary": "सुने श्रीमद्‍भगवद्‍गीता के श्लोक अब अलेक्सा पर।",
+          "examplePhrases": [
+            "Alexa, गीता श्लोक खोलो।",
+            "श्लोक सुनाओ।"
+          ],
+          "keywords": [
+            "geeta",
+            "shloks"
+          ],
+          "name": "गीता श्लोक",
+          "description": "यह स्किल आपको श्रीमद्‍भगवद्‍गीता के श्लोक सुनती है। श्लोक सुनने के लिए कहें Alexa, श्लोक सुनाओ।",
+          "smallIconUri": "file://assets/images/hi-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/hi-IN_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions.",
+      "category": "RELIGION_AND_SPIRITUALITY",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:085590731948:function:e7aa2d37-024a-4bc7-96f0-daa5b129e142:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

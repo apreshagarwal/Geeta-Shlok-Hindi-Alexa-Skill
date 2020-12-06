@@ -1,0 +1,38 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "गीता श्लोक",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "सहायता करें",
+            "सहायता"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ShlokIntent",
+          "slots": [],
+          "samples": [
+            "श्लोक",
+            "श्लोक सुनाओ "
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "9"
+}
